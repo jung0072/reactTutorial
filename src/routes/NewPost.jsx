@@ -41,3 +41,6 @@ export async function action(data) {
 
   return redirect('/');
 }
+
+// I used 'useState' and 'useEffect' during the tutorial.
+// You can check that out in archived folder

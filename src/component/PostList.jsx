@@ -27,3 +27,7 @@ function PostList() {
 }
 
 export default PostList;
+
+
+// I used 'useState' and 'useEffect' during the tutorial.
+// You can check that out in archived folder

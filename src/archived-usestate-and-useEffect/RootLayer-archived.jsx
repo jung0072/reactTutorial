@@ -23,6 +23,3 @@ function RootLayer(params) {
 }
 
 export default RootLayer;
-
-// I used 'useState' and 'useEffect' during the tutorial.
-// You can check that out in archived folder
