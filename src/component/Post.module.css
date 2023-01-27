@@ -1,0 +1,19 @@
+.post{
+  background-color: #535bf2;
+  color: white;
+  padding: 1rem;
+  border-radius: .25rem;
+  margin-bottom: .5rem;
+}
+
+.name{
+    font-size: 2rem;
+}
+
+.body{
+    color: antiquewhite;
+}
+
+.post a {
+  text-decoration: none;
+}
