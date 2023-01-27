@@ -14,7 +14,6 @@ function MainHeader({ onCreatePost }) {
         <Link
           to="/create-post"
           className={classes.button}
-          onClick={onCreatePost}
         >
           <MdPostAdd size={18} />
           New Post

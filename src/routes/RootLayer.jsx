@@ -16,7 +16,7 @@ function RootLayer(params) {
 
   return (
     <>
-      <MainHeader onCreatePost={showModalVisibility}/>
+      <MainHeader />
       <Outlet />
     </>
   );

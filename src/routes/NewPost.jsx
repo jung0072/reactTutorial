@@ -30,7 +30,7 @@ export default NewPost;
 
 export async function action(data) {
   const formData = await data.request.formData();
-  const postData = Object.fromEntries(formData); //{ body: '~~', author: '~~'}
+  const postData = Object.fromEntries(formData); //change into an object; { body: '~~', author: '~~'}
   const response = await fetch("http://localhost:8080/posts", {
     method: "POST",
     body: JSON.stringify(postData),

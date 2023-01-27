@@ -1,19 +1,19 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import styles from "./Modal.module.css";
 
-
 function Modal(props) {
-  const navigate = useNavigate();
-  function closeHandler() {
-    navigate('..');
-  }
+  // const navigate = useNavigate();
+  // function closeHandler() {
+  //   navigate('..');
+  // }
 
   return (
     <>
-      <div
+      <Link
         className={styles.backdrop}
-        onClick={closeHandler}
-      ></div>
+        to=".."
+        // onClick={closeHandler}
+      />
       <dialog open className={styles.modal}>
         {props.children}
       </dialog>
