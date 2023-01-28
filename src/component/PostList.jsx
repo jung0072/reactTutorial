@@ -1,7 +1,7 @@
-import NewPost from "../routes/NewPost";
+import { useLoaderData } from "react-router-dom";
+
 import Post from "./Post";
 import styles from "./PostList.module.css";
-import { useLoaderData } from "react-router-dom";
 
 function PostList() {
   const posts = useLoaderData();

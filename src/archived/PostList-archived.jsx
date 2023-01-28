@@ -12,10 +12,10 @@ function PostList() {
     async function getData() {
       SetIsFetching(true);
       const response = await fetch("http://localhost:8080/posts");
-      let data = await response.json();
       if (!response.ok) {
         throw console.error();
       }
+      let data = await response.json();
       SetIsFetching(false);
       setPostData(data.posts);
     }
